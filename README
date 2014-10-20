@@ -11,4 +11,5 @@ Dependencies:
 
 Usage:
     Fill out and copy conf.py.example to conf.py
+    $ pip install -r requirements.txt
     $ python importer.py 12345
