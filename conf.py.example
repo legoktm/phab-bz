@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+USER = 'Username'
+# Make sure there is no trailing /
+# Can use 'https://phab-01.wmflabs.org' if you want to test
+HOST = 'https://phabricator.wikimedia.org'
+# Copy from https://phabricator.wikimedia.org/settings/panel/conduit/
+CERT = ''
+# Exact name of the project to add tasks to
+PHAB_PROJ = ''

@@ -1,0 +1,14 @@
+phab-bz
+
+Creates stub tasks in Phabricator so they can be used inside a
+workboard using data from Wikimedia's Bugzilla instance.
+
+Major thanks to <https://justin.harmonize.fm/development/2013/06/29/authenticating-with-phabricator.html>
+for actually documenting how to interact with conduit.
+
+Dependencies:
+    requests
+
+Usage:
+    Fill out and copy conf.py.example to conf.py
+    $ python importer.py 12345
